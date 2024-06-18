@@ -1,0 +1,86 @@
+2024-04-16 16:11:48 UTC
+Windows-10-10.0.19045
+Ren'Py 8.2.1.24030407
+
+Early init took 0.30s
+Loading error handling took 0.15s
+Loading script took 0.94s
+Loading save slot metadata took 0.48s
+Loading persistent took 0.00s
+Running init code took 0.32s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.35s
+Index archives took 0.00s
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.21s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.01s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.01s
+Load screen analysis took 0.16s
+Analyze screens took 0.01s
+Save screen analysis took 0.00s
+Prepare screens took 0.37s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.06s
+Running _start took 0.00s
+Interface start took 0.27s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) Vega 8 Graphics '
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 68.93s
+Loading error handling took 0.05s
+Loading script took 0.62s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\we5119\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon(TM) Vega 8 Graphics '
+Version: b'4.6.0 Compatibility Profile Context 22.20.27.09.230330'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096

@@ -1,0 +1,24 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 851, in script
+    d "Well... we do archive newspapers. Just go to the address written on today's paper and you can ask the front desk to let you read them. Just say that Dan sent you."
+Exception: Sayer 'd' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 851, in script
+    d "Well... we do archive newspapers. Just go to the address written on today's paper and you can ask the front desk to let you read them. Just say that Dan sent you."
+  File "C:\Users\we5119\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\we5119\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\we5119\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'd' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+mojan 0.1
+Mon Apr 15 10:00:17 2024

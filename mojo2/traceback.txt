@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 230, in script
+    scene bgletter with slideawaybottom
+  File "game/script.rpy", line 230, in <module>
+    scene bgletter with slideawaybottom
+NameError: name 'slideawaybottom' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 230, in script
+    scene bgletter with slideawaybottom
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 1359, in execute
+    paired = renpy.python.py_eval(self.paired)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 230, in <module>
+    scene bgletter with slideawaybottom
+NameError: name 'slideawaybottom' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+mojan 0.4
+Thu Apr 18 09:31:38 2024

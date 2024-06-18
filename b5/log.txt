@@ -1,0 +1,45 @@
+2024-04-16 17:16:36 UTC
+Windows-10-10.0.19045
+Ren'Py 8.2.1.24030407
+
+Early init took 0.17s
+Loading error handling took 0.05s
+Loading script took 0.69s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.14s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kaelan\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.02s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1392, 783) drawable=(1392, 783)
+Maximum texture size: 4096x4096

@@ -1,0 +1,186 @@
+2024-04-12 17:11:58 UTC
+Windows-10-10.0.19045
+Ren'Py 8.2.1.24030407
+
+Early init took 0.22s
+Loading error handling took 0.07s
+Loading script took 0.44s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kaelan\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.26s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.04s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1370, 771) drawable=(1370, 771)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 691, in script
+    "Look at tables" if not s3p2o1:
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 1618, in execute
+    choice = renpy.exports.menu(choices, self.set, args, kwargs, item_arguments)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\exports.py", line 1075, in menu
+    condition = renpy.python.py_eval(condition)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 693, in <module>
+    "The tables are empty, save for some dirt left over from when there were flowers there."
+NameError: name 's3p2o1' is not defined
+
+While running game code:
+  File "game/script.rpy", line 691, in script
+    "Look at tables" if not s3p2o1:
+  File "game/script.rpy", line 693, in <module>
+    "The tables are empty, save for some dirt left over from when there were flowers there."
+NameError: name 's3p2o1' is not defined
+Resetting cache.
+Early init took 785.29s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 759: expected statement.
+    dun dun dun dun-dun
+                       ^
+
+File "game/script.rpy", line 760: expected statement.
+    dun dun dun dun-dun
+                       ^
+
+File "game/script.rpy", line 761: expected statement.
+    dun dun dun dunnadunnadun dun 
+                                  ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1370, 771) drawable=(1370, 771)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 794.67s
+Loading error handling took 0.06s
+Loading script took 0.32s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kaelan\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1370, 771) drawable=(1370, 771)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 769, in script
+    
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 1842, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 769, in <module>
+    
+NameError: name 's3p4a' is not defined
+
+While running game code:
+  File "game/script.rpy", line 769, in script
+    
+  File "game/script.rpy", line 769, in <module>
+    
+NameError: name 's3p4a' is not defined
+Screen sizes: virtual=(1280, 720) physical=(1370, 770) drawable=(1370, 770)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1370, 769) drawable=(1370, 769)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1370, 767) drawable=(1370, 767)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1370, 772) drawable=(1370, 772)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1370, 770) drawable=(1370, 770)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1370, 772) drawable=(1370, 772)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1370, 763) drawable=(1370, 763)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1364, 763) drawable=(1364, 763)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1361, 763) drawable=(1361, 763)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1358, 763) drawable=(1358, 763)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1357, 763) drawable=(1357, 763)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1280, 720) physical=(1356, 763) drawable=(1356, 763)
+Maximum texture size: 4096x4096

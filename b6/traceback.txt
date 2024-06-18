@@ -1,0 +1,43 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 1140, in script
+    jwt "When we saw the fire, we ran away like wimps waaahh"
+NameError: Name 'jwt_name' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 1140, in script
+    jwt "When we saw the fire, we ran away like wimps waaahh"
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\character.py", line 1377, in __call__
+    who = self.prefix_suffix("who", self.who_prefix, who, self.who_suffix)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\character.py", line 1293, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\character.py", line 1273, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 368, in substitute
+    s = interpolate(s, kwargs) # type: ignore
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 310, in __getitem__
+    raise NameError("Name '{}' is not defined.".format(key))
+NameError: Name 'jwt_name' is not defined.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+mojan 0.4
+Wed Apr 17 10:22:31 2024

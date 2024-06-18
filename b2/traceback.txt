@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 541, in script
+    $ InvItem(*mojan_map).pickup(1)
+  File "game/script.rpy", line 541, in <module>
+    $ InvItem(*mojan_map).pickup(1)
+NameError: name 'mojan_map' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 541, in script
+    $ InvItem(*mojan_map).pickup(1)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 541, in <module>
+    $ InvItem(*mojan_map).pickup(1)
+NameError: name 'mojan_map' is not defined
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.2.1.24030407
+mojan 0.1
+Mon Apr  8 10:32:51 2024

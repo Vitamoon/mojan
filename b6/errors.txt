@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 1149: choice menuitem expects a non-empty block.
+    "Ask Yi" if not lol4:
+                         ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Wed Apr 17 10:18:46 2024

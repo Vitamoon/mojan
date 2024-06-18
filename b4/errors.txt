@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 926: end of line expected.
+    p "Did you know Huo well?":
+                              ^
+
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Mon Apr 15 10:26:56 2024

@@ -1,0 +1,356 @@
+2024-04-17 17:18:45 UTC
+Windows-10-10.0.19045
+Ren'Py 8.2.1.24030407
+
+Early init took 0.15s
+Loading error handling took 0.06s
+Loading script took 0.39s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 1149: choice menuitem expects a non-empty block.
+    "Ask Yi" if not lol4:
+                         ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.16s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1392, 783) drawable=(1392, 783)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 44.03s
+Loading error handling took 0.06s
+Loading script took 0.46s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kaelan\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1392, 783) drawable=(1392, 783)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 1058, in script
+    show charshizhang
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 1058, in <module>
+    show charshizhang
+NameError: name 'Shizhang' is not defined
+
+While running game code:
+  File "game/script.rpy", line 1058, in script
+    show charshizhang
+  File "game/script.rpy", line 1058, in <module>
+    show charshizhang
+NameError: name 'Shizhang' is not defined
+Resetting cache.
+Early init took 128.87s
+Loading error handling took 0.04s
+Loading script took 0.47s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kaelan\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1392, 783) drawable=(1392, 783)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 1133, in script
+    $ yw_name = Qing
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 1133, in <module>
+    $ yw_name = Qing
+NameError: name 'Qing' is not defined
+
+While running game code:
+  File "game/script.rpy", line 1133, in script
+    $ yw_name = Qing
+  File "game/script.rpy", line 1133, in <module>
+    $ yw_name = Qing
+NameError: name 'Qing' is not defined
+Resetting cache.
+Early init took 181.95s
+Loading error handling took 0.04s
+Loading script took 0.41s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kaelan\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1392, 783) drawable=(1392, 783)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 1140, in script
+    ywt "When we saw the fire, we ran away like wimps waaahh"
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'ywt' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 1140, in script
+    ywt "When we saw the fire, we ran away like wimps waaahh"
+Exception: Sayer 'ywt' is not defined.
+Resetting cache.
+Early init took 194.61s
+Loading error handling took 0.02s
+Loading script took 0.22s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Dump and make backups took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1392, 783) drawable=(1392, 783)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 1140, in script
+    ywt "When we saw the fire, we ran away like wimps waaahh"
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'ywt' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 1140, in script
+    ywt "When we saw the fire, we ran away like wimps waaahh"
+Exception: Sayer 'ywt' is not defined.
+
+Full traceback:
+  File "game/script.rpy", line 1140, in script
+    ywt "When we saw the fire, we ran away like wimps waaahh"
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 575, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 464, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'ywt' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 1140, in script
+    ywt "When we saw the fire, we ran away like wimps waaahh"
+Exception: Sayer 'ywt' is not defined.
+Resetting cache.
+Early init took 224.70s
+Loading error handling took 0.04s
+Loading script took 0.42s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Kaelan\\AppData\\Roaming/RenPy/backups\\mojo2':
+Dump and make backups took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) Iris(R) Xe Graphics'
+Version: b'4.6.0 - Build 31.0.101.4644'
+Display Info: None
+Screen sizes: virtual=(1280, 720) physical=(1392, 783) drawable=(1392, 783)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/script.rpy", line 1140, in script
+    jwt "When we saw the fire, we ran away like wimps waaahh"
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\character.py", line 1377, in __call__
+    who = self.prefix_suffix("who", self.who_prefix, who, self.who_suffix)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\character.py", line 1293, in prefix_suffix
+    return (sub(prefix) + sub(body) + sub(suffix))
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\character.py", line 1273, in sub
+    return renpy.substitutions.substitute(s, scope=scope, force=force, translate=translate)[0]
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 368, in substitute
+    s = interpolate(s, kwargs) # type: ignore
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 86, in interpolate
+    raise e
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 78, in interpolate
+    value = renpy.python.py_eval(code, {}, scope)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+  File "C:\Users\Kaelan\Downloads\renpy-8.2.1-sdk\renpy\substitutions.py", line 310, in __getitem__
+    raise NameError("Name '{}' is not defined.".format(key))
+NameError: Name 'jwt_name' is not defined.
+
+While running game code:
+  File "game/script.rpy", line 1140, in script
+    jwt "When we saw the fire, we ran away like wimps waaahh"
+NameError: Name 'jwt_name' is not defined.
