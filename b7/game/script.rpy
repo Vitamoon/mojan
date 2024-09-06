@@ -227,7 +227,7 @@ label s0p2:
     if p_name == "":
         $ p_name="Bamboo"    
 
-    scene bgletter with slideawaybottom
+    scene bgletter with slideawayleft
     
     "\"Dear %(p)s,"
 
