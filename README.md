@@ -1,5 +1,6 @@
 Visual novel about mahjong made in 4 months with about 1000 lines of dialogue and ~1 hour of content.
 
+![image](https://github.com/user-attachments/assets/b4153134-de3f-42c1-8228-fa8ae076c36a)
 ![2024-11-13-00-12-45_mojan_C9hUEiL3Df](https://github.com/user-attachments/assets/594c5b89-ebe8-4622-b735-a523b304849b)
 ![2024-11-13-00-10-44_mojan_x50cqk3zPu](https://github.com/user-attachments/assets/ec239de3-ae35-4675-a322-c0e8f855cf0a)
 ![2024-11-13-00-09-12_mojan_TBF46b2kr5](https://github.com/user-attachments/assets/4f73e983-c58a-4f82-b01e-7a16f4192bbf)
